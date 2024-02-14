@@ -1,0 +1,91 @@
+body{
+    background-color: rgb(3, 0, 13);
+}
+.container, .container-lg, .container-md, .container-sm {
+    max-width: 1480px;
+}
+.frontendPro{
+    text-decoration: none;
+    color: azure;
+}
+.frontendPro:hover{
+    color: rgb(65, 15, 110);
+}
+.githubStar{
+    background-color: rgb(68, 4, 145);
+    margin-right: 10px;
+    height: 40px;
+}
+/* .githubStar:hover{
+    box-shadow: 0 0 10px #0d39ff;
+} */
+.menubar{
+    width: 170px;
+}
+.Challenges{
+    width: 100px;
+    text-decoration: none;
+    color: azure;
+}
+.Challenges h6{
+    padding-left: 10px;
+}
+.Challenges:hover{
+    color: rgb(65, 15, 110);
+}
+.Solutions{
+    width: 100px;
+    text-decoration: none;
+    color: azure;
+}
+.Solutions h6{
+    padding-left: 15px;
+}
+.Solutions:hover{
+    color: rgb(65, 15, 110);
+}
+.Resources{
+    width: 100px;
+    text-decoration: none;
+    color: azure;
+}
+.Resources h6{
+    padding-left: 15px;
+}
+.Resources:hover{
+    color: rgb(65, 15, 110);
+}
+.Roadmaps{
+    width: 100px;
+    text-decoration: none;
+    color: azure;
+}
+.Roadmaps h6{
+    padding-left: 15px;
+}
+.Roadmaps:hover{
+    color: rgb(65, 15, 110);
+}
+.first {
+    margin-top: 90px
+}
+.first h1 {
+    font-size: 70px;
+    background: linear-gradient(to right, #99ff99, #6600ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    letter-spacing: -2px;
+  }
+  
+  
+
+.second h5{
+    color: azure;
+}
+.Start {
+    background-color: rgb(68, 4, 145);
+    width: 210px;
+    height: 50px;
+  }
+  

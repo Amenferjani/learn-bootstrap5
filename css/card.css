@@ -1,0 +1,10 @@
+.card-body{
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.card-img-top{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+
+}
+
