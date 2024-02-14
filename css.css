@@ -1,0 +1,25 @@
+.neon-background {
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .neon-background h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 48px;
+    color: #fff;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #0ff, 0 0 80px #0ff, 0 0 120px #0ff, 0 0 200px #0ff, 0 0 300px #0ff;
+    animation: neon-animation 2s ease-in-out infinite alternate;
+    -webkit-animation: neon-animation 2s ease-in-out infinite alternate;
+}
+  
+  @keyframes neon-animation {
+    0% { text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #0ff, 0 0 80px #0ff, 0 0 120px #0ff, 0 0 200px #0ff, 0 0 300px #0ff; }
+    100% { text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #0ff, 0 0 40px #0ff, 0 0 60px #0ff, 0 0 100px #0ff, 0 0 150px #0ff; }
+  }
+  

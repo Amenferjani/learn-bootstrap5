@@ -1,0 +1,23 @@
+:root{
+    --dark-color:#19283f;
+}
+body{
+    font-family: "Roboto","sans-serif";
+}
+/* start navbar */
+.navbar{
+    background-color: var(--dark-color);
+    color: aliceblue;
+}
+.container{
+    margin-left: 0px;
+}
+.navbar-collapse {
+    margin-left: unset;
+    font-size: larger;
+}
+.navbar-brand {
+    margin-left: 30px;
+}
+/* end navbar */
+
